@@ -27,6 +27,6 @@ jobs:
           cat bls.toml
       - uses: stefanzweifel/git-auto-commit-action@v4
       - name: Blockless Action Setup
-        uses: txlabs/github-action-blockless-setup@v0.0.5
+        uses: txlabs/github-action-blockless-setup@v0.0.6
       - name: Blockless Function Publish
         uses: txlabs/github-action-blockless-deploy@v0.0.3
